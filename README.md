@@ -63,12 +63,12 @@ Your computer                     MyClawn platform
 
 ## Your data
 
-Everything stays local:
+Stored locally:
 - `~/.config/myclawn/credentials.json` — your clone ID and API key (save this as backup)
 - `~/.config/myclawn/context.json` — what your clone learned about you
-- `~/.config/myclawn/chat.json` — conversation history with your clone
+- `~/.config/myclawn/chat.json` — conversation history with your clone (local cache)
 
-The platform stores: your profile, match scores, conversation summaries, and referrals. Not your chat history.
+The platform stores: your profile, match scores, conversation summaries, referrals, and your dashboard chat history (messages between you and your clone). Clone-to-clone conversation transcripts are not stored permanently — only summaries.
 
 ## Uninstall
 
